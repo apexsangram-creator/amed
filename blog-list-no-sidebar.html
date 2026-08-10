@@ -82,22 +82,25 @@
 					</div>
 
 					<button aria-label="Open menu"
-						class="xmenu-toggler lg:hidden float-right sm:mt-4.5 sm:mb-4 sm:ml-7 ml-4 my-2.5 size-11 bg-secondary rounded-md relative cursor-pointer max-lg:order-1"
+						class="xmenu-toggler lg:hidden float-right sm:mt-4.5 sm:mb-4 sm:ml-7 ml-4 my-2.5 size-11 bg-white rounded-md relative cursor-pointer max-lg:order-1 [.sticky-header-wrapper.is-fixed_&]:bg-secondary"
 						type="button">
 						<span
-							class="block absolute left-2.5 h-0.5 rounded-px bg-white duration-300 top-3.25 w-5.5"></span>
+							class="block absolute left-2.5 h-0.5 rounded-px bg-secondary [.sticky-header-wrapper.is-fixed_&]:bg-white duration-300 top-3.25 w-5.5"></span>
 						<span
-							class="block absolute left-2.5 h-0.5 rounded-px bg-white duration-0 top-5.5 w-6.25"></span>
-						<span class="block absolute left-2.5 h-0.5 rounded-px bg-white duration-300 top-8 w-4"></span>
+							class="block absolute left-2.5 h-0.5 rounded-px bg-secondary [.sticky-header-wrapper.is-fixed_&]:bg-white duration-0 top-5.5 w-6.25"></span>
+						<span
+							class="block absolute left-2.5 h-0.5 rounded-px bg-secondary [.sticky-header-wrapper.is-fixed_&]:bg-white duration-300 top-8 w-4"></span>
 					</button>
 					<div
 						class="lg:hidden fixed top-0 left-0 bg-black size-full duration-300 z-999 opacity-0 visible pointer-events-none menu-close fade-overlay">
 					</div>
 					<div
-						class="flex lg:basis-auto lg:mx-auto max-lg:flex-col lg:justify-center justify-start lg:items-center max-lg:fixed max-lg:h-screen max-lg:px-5 max-lg:top-0 max-lg:-left-75 max-lg:z-9999 max-lg:w-72 max-lg:overflow-auto max-lg:duration-700 header-nav custom-scroll lg:rounded-6xl lg:bg-secondary/30 bg-white p-1.5 [.header-nav.show]:left-0">
-						<div class="flex items-center relative z-9 py-6.25 lg:hidden w-33.75 h-15.25">
+						class="flex lg:basis-auto lg:mx-auto max-lg:flex-col lg:justify-center justify-start lg:items-center max-lg:fixed max-lg:h-screen max-lg:px-5 max-lg:top-0 max-lg:-left-75 max-lg:z-9999 max-lg:w-72 max-lg:overflow-auto max-lg:duration-700 header-nav custom-scroll lg:rounded-6xl lg:bg-secondary/40 bg-white p-1.5 [.header-nav.show]:left-0">
+						<div class="flex items-center relative z-9 py-6.25 lg:hidden w-48 sm:w-56 h-16 ps-4">
 							<a aria-label="Go to homepage" href="index.html" class="table-cell align-middle">
-								<img src="assets/images/logo.svg" alt="" class="object-contain duration-500">
+								<img src="assets/images/logo2.png" alt=""
+									class="max-h-14 w-auto object-contain duration-500"
+									style="filter: invert(1) hue-rotate(180deg);">
 							</a>
 						</div>
 						<ul class="lg:flex flex-wrap navbar-nav nav-wrapper">
@@ -112,53 +115,53 @@
 							<li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
 								<a class="lg:py-2.5 py-2 xl:px-4 lg:px-2 relative z-1 lg:inline-block block xl:text-base text-2sm leading-none! font-medium rounded-8xl lg:group-hover:text-heading nav-link"
 									href="about-us-1.html">
-									<span class="inline-block lg:leading-5 leading-7.5">Pages</span>
+									<span class="inline-block lg:leading-5 leading-7.5">About Us</span>
 									<i
 										class="fas fa-chevron-right lg:hidden! block! size-7 leading-7! text-center text-xs bg-secondary rounded text-white float-end"></i>
 								</a>
-								<ul
-									class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 lg:shadow-1 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden sub-menu">
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="about-us-1.html"><span>About Us 1</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="about-us-2.html"><span>About Us 2</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="team-1.html"><span>Team 1</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="team-2.html"><span>Team 2</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="faqs-1.html"><span>Faqs 1</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="faqs-2.html"><span>Faqs 2</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="error-404.html"><span>Error 404 1</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="error-404-2.html"><span>Error 404 2</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="coming-soon.html"><span>Coming Soon</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="under-construction.html"><span>Under Construction</span></a>
-									</li>
-								</ul>
+								<!-- <ul
+                                    class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden sub-menu">
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="about-us-1.html"><span>About Us 1</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="about-us-2.html"><span>About Us 2</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="team-1.html"><span>Team 1</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="team-2.html"><span>Team 2</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="faqs-1.html"><span>Faqs 1</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="faqs-2.html"><span>Faqs 2</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="error-404.html"><span>Error 404 1</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="error-404-2.html"><span>Error 404 2</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="coming-soon.html"><span>Coming Soon</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="under-construction.html"><span>Under Construction</span></a>
+                                    </li>
+                                </ul> -->
 							</li>
 							<li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
 								<a class="lg:py-2.5 py-2 xl:px-4 lg:px-2 relative z-1 lg:inline-block block xl:text-base text-2sm leading-none! font-medium rounded-8xl lg:group-hover:text-heading nav-link"
@@ -167,205 +170,209 @@
 									<i
 										class="fas fa-chevron-right lg:hidden! block! size-7 leading-7! text-center text-xs bg-secondary rounded text-white float-end"></i>
 								</a>
-								<ul
-									class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 lg:shadow-1 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden mega-menu">
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="services.html"><span>Services</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="service-detail.html"><span>Services Detail</span></a>
-									</li>
-								</ul>
+								<!-- <ul
+                                    class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden mega-menu">
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="services.html"><span>Services</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="service-detail.html"><span>Services Detail</span></a>
+                                    </li>
+                                </ul> -->
 							</li>
 							<!-- <li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
-								<a class="lg:py-2.5 py-2 xl:px-4 lg:px-2 relative z-1 lg:inline-block block xl:text-base text-2sm leading-none! font-medium rounded-8xl lg:group-hover:text-heading nav-link"
-									href="tour-packages.html">
-									<span class="inline-block lg:leading-5 leading-7.5">Package</span>
-									<i
-										class="fas fa-chevron-right lg:hidden! block! size-7 leading-7! text-center text-xs bg-secondary rounded text-white float-end"></i>
-								</a>
-								<ul
-									class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 lg:shadow-1 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden mega-menu">
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="tour-packages.html"><span>Packages</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="upcoming-trips.html"><span>Upcoming Trips</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="trip-details.html"><span>Trip Details</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="trip-details-2.html"><span>Trip Details 2</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="book-now.html"><span>Book Now</span></a>
-									</li>
-								</ul>
-							</li> -->
+                                <a class="lg:py-2.5 py-2 xl:px-4 lg:px-2 relative z-1 lg:inline-block block xl:text-base text-2sm leading-none! font-medium rounded-8xl lg:group-hover:text-heading nav-link"
+                                    href="tour-packages.html">
+                                    <span class="inline-block lg:leading-5 leading-7.5">Package</span>
+                                    <i
+                                        class="fas fa-chevron-right lg:hidden! block! size-7 leading-7! text-center text-xs bg-secondary rounded text-white float-end"></i>
+                                </a>
+                                <ul
+                                    class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden mega-menu">
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="tour-packages.html"><span>Packages</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="upcoming-trips.html"><span>Upcoming Trips</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="trip-details.html"><span>Trip Details</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="trip-details-2.html"><span>Trip Details 2</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="book-now.html"><span>Book Now</span></a>
+                                    </li>
+                                </ul>
+                            </li> -->
 							<li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
 								<a class="lg:py-2.5 py-2 xl:px-4 lg:px-2 relative z-1 lg:inline-block block xl:text-base text-2sm leading-none! font-medium rounded-8xl lg:group-hover:text-heading nav-link"
-									href="blog.html">
+									href="blog-list-no-sidebar.html">
 									<span class="inline-block lg:leading-5 leading-7.5">Blogs</span>
 									<i
 										class="fas fa-chevron-right lg:hidden! block! size-7 leading-7! text-center text-xs bg-secondary rounded text-white float-end"></i>
 								</a>
-								<ul
-									class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 lg:shadow-1 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden sub-menu">
-									<li class="group/second relative sub-menu-down">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
-											href="blog.html"><span>Blog Grid</span></a>
-										<ul
-											class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog.html"><span>Blog</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-grid-2.html"><span>Blog Column 2</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-grid-3.html"><span>Blog Column 3</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-grid-4.html"><span>Blog Column 4</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-card.html"><span>Blog Card</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-collage.html"><span>Blog Collage</span></a>
-											</li>
-										</ul>
-									</li>
-									<li class="group/second relative sub-menu-down">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
-											href="blog-list-no-sidebar.html"><span>Blog List</span></a>
-										<ul
-											class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-list-no-sidebar.html"><span>No Sidebar</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-list-left-sidebar.html"><span>Left Sidebar</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-list-right-sidebar.html"><span>Right Sidebar</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-list-both-sidebar.html"><span>Both Sidebar</span></a>
-											</li>
-										</ul>
-									</li>
-									<li class="group/second relative sub-menu-down">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
-											href="blog-details.html"><span>Blog Details</span></a>
-										<ul
-											class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-details.html"><span>Default</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="post-catalogue.html"><span>post Catalogue</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-details-no-sidebar.html"><span>No Sidebar</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-details-left-sidebar.html"><span>Left Sidebar</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-details-right-sidebar.html"><span>Right
-														Sidebar</span></a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="blog-details-both-sidebar.html"><span>Both Sidebar</span></a>
-											</li>
-										</ul>
-									</li>
-									<li class="group/second relative sub-menu-down">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
-											href="standard-post.html"><span>Post Layout</span></a>
-										<ul
-											class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="standard-post.html"><span>Standard Post</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="status-slider.html"><span>Status Slider</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="corner-post.html"><span>Corner Post</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="side-post.html"><span>Side Post</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="tutorial-post.html"><span>Tutorial Post</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="post-slider.html"><span>Post Slider</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="post-quote.html"><span>Post Quote</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="post-gallery.html"><span> Post Gallery </span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="header-image.html"><span>Header Image </span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="post-image.html"><span> Post Image </span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="link-post.html"><span>Link Post</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="video-post.html"><span>Video Post</span> </a>
-											</li>
-											<li class="relative">
-												<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-													href="audio-post.html"><span>Audio Post</span> </a>
-											</li>
-										</ul>
-									</li>
-								</ul>
+
+								<!--Test route for Contact us Nav Start-->
+								<!-- <ul
+                                    class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 lg:shadow-1 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden sub-menu">
+                                    <li class="group/second relative sub-menu-down">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
+                                            href="blog.html"><span>Blog Grid</span></a>
+                                        <ul
+                                            class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog.html"><span>Blog</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-grid-2.html"><span>Blog Column 2</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-grid-3.html"><span>Blog Column 3</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-grid-4.html"><span>Blog Column 4</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-card.html"><span>Blog Card</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-collage.html"><span>Blog Collage</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="group/second relative sub-menu-down">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
+                                            href="blog-list-no-sidebar"><span>Blog List</span></a>
+                                        <ul
+                                            class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-list-no-sidebar.html"><span>No Sidebar</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-list-left-sidebar.html"><span>Left Sidebar</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-list-right-sidebar.html"><span>Right Sidebar</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-list-both-sidebar.html"><span>Both Sidebar</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="group/second relative sub-menu-down">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
+                                            href="blog-details.html"><span>Blog Details</span></a>
+                                        <ul
+                                            class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-details.html"><span>Default</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="post-catalogue.html"><span>post Catalogue</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-details-no-sidebar.html"><span>No Sidebar</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-details-left-sidebar.html"><span>Left Sidebar</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-details-right-sidebar.html"><span>Right
+                                                        Sidebar</span></a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="blog-details-both-sidebar.html"><span>Both Sidebar</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="group/second relative sub-menu-down">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary after:content-['\f054'] after:inline-block after:font-black after:font-['Font_Awesome_5_Free'] after:text-tiny after:float-right after:duration-500 max-lg:after:size-7 max-lg:after:leading-7 max-lg:after:text-center max-lg:after:text-xs max-lg:after:rounded max-lg:after:bg-secondary max-lg:after:text-white"
+                                            href="standard-post.html"><span>Post Layout</span></a>
+                                        <ul
+                                            class="bg-white lg:py-5 lg:w-55 2xl:left-55 lg:-left-55 lg:top-0 lg:shadow-1 lg:absolute lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover/second:opacity-100 lg:group-hover/second:visible lg:group-hover/second:translate-y-0 max-lg:hidden max-lg:pl-5 sub-menu">
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="standard-post.html"><span>Standard Post</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="status-slider.html"><span>Status Slider</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="corner-post.html"><span>Corner Post</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="side-post.html"><span>Side Post</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="tutorial-post.html"><span>Tutorial Post</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="post-slider.html"><span>Post Slider</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="post-quote.html"><span>Post Quote</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="post-gallery.html"><span> Post Gallery </span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="header-image.html"><span>Header Image </span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="post-image.html"><span> Post Image </span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="link-post.html"><span>Link Post</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="video-post.html"><span>Video Post</span> </a>
+                                            </li>
+                                            <li class="relative">
+                                                <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                                    href="audio-post.html"><span>Audio Post</span> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
 							</li>
+							<!--Test route for Contact us Nav End-->
+
 							<li class="lg:inline-block block max-lg:border-b max-lg:border-gray-200 relative group">
 								<a class="lg:py-2.5 py-2 xl:px-4 lg:px-2 relative z-1 lg:inline-block block xl:text-base text-2sm leading-none! font-medium rounded-8xl lg:group-hover:text-heading nav-link"
 									href="contact-us-1.html">
@@ -373,40 +380,40 @@
 									<i
 										class="fas fa-chevron-right lg:hidden! block! size-7 leading-7! text-center text-xs bg-secondary rounded text-white float-end"></i>
 								</a>
-								<ul
-									class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 lg:shadow-1 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden mega-menu">
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="contact-us-1.html"><span>Contact Us 1</span></a>
-									</li>
-									<li class="relative">
-										<a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
-											href="contact-us-2.html"><span>Contact Us 2</span></a>
-									</li>
-								</ul>
+								<!-- <ul
+                                    class="lg:absolute bg-white block lg:left-0 lg:py-5 max-lg:py-2.5 max-lg:border-t max-lg:border-gray-200 w-full lg:w-55 lg:opacity-0 lg:invisible lg:translate-y-10 z-10 mt-0 text-left duration-500 lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:translate-y-1 max-lg:hidden mega-menu">
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="contact-us-1.html"><span>Contact Us 1</span></a>
+                                    </li>
+                                    <li class="relative">
+                                        <a class="block relative text-sm text-gray-600 font-normal py-1.25 lg:px-7.5 duration-500 hover:text-secondary nav-link"
+                                            href="contact-us-2.html"><span>Contact Us 2</span></a>
+                                    </li>
+                                </ul> -->
 							</li>
 						</ul>
 						<div class="lg:hidden block max-lg:p-5 text-center mt-auto">
 							<ul>
 								<li class="inline-block mx-0.5">
-									<a rel="noopener noreferrer" aria-label="DexignZone on Facebook"
+									<a rel="noopener noreferrer" aria-label="Amed Snorkeling on Facebook"
 										class="size-10 leading-10! border border-black/10 text-center text-secondary hover:bg-primary hover:border-primary fab fa-facebook-f"
-										target="_blank" href="https://www.facebook.com/dexignzone"></a>
+										target="_blank" href="https://www.facebook.com"></a>
 								</li>
 								<li class="inline-block mx-0.5">
-									<a rel="noopener noreferrer" aria-label="DexignZone on Twitter"
+									<a rel="noopener noreferrer" aria-label="Amed Snorkeling on X"
 										class="size-10 leading-10! border border-black/10 text-center text-secondary hover:bg-primary hover:border-primary fab fa-twitter"
-										target="_blank" href="https://twitter.com/dexignzones"></a>
+										target="_blank" href="https://twitter.com"></a>
 								</li>
 								<li class="inline-block mx-0.5">
-									<a rel="noopener noreferrer" aria-label="DexignZone on Linkedin"
+									<a rel="noopener noreferrer" aria-label="Amed Snorkeling on LinkedIn"
 										class="size-10 leading-10! border border-black/10 text-center text-secondary hover:bg-primary hover:border-primary fab fa-linkedin-in"
-										target="_blank" href="https://www.linkedin.com/showcase/3686700/admin/"></a>
+										target="_blank" href="https://www.linkedin.com"></a>
 								</li>
 								<li class="inline-block mx-0.5">
-									<a rel="noopener noreferrer" aria-label="DexignZone on Instagram"
+									<a rel="noopener noreferrer" aria-label="Amed Snorkeling on Instagram"
 										class="size-10 leading-10! border border-black/10 text-center text-secondary hover:bg-primary hover:border-primary fab fa-instagram"
-										target="_blank" href="https://www.instagram.com/dexignzone/"></a>
+										target="_blank" href="https://www.instagram.com"></a>
 								</li>
 							</ul>
 						</div>
@@ -416,21 +423,21 @@
 							<ul class="lg:ml-5 sm:ml-3.75 flex items-center gap-5 w-full justify-between">
 								<li class="inline-block">
 									<button aria-label="Open search" type="button"
-										class="md:size-12.5 size-10.5 flex items-center justify-center rounded-full cursor-pointer text-white bg-secondary/10 backdrop-blur-md quick-search"
+										class="md:size-12.5 size-10.5 flex items-center justify-center rounded-full cursor-pointer text-white bg-white/10 backdrop-blur-md [.sticky-header-wrapper.is-fixed_&]:bg-secondary/30 quick-search"
 										data-target="#searchOverlay1">
 										<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
 											xmlns="http://www.w3.org/2000/svg">
-											<path d="M21 21L16.66 16.66" stroke="black" stroke-width="2"
+											<path d="M21 21L16.66 16.66" stroke="white" stroke-width="2"
 												stroke-linecap="round" stroke-linejoin="round" />
 											<path
 												d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
-												stroke="black" stroke-width="2" stroke-linecap="round"
+												stroke="white" stroke-width="2" stroke-linecap="round"
 												stroke-linejoin="round" />
 										</svg>
 									</button>
 								</li>
 								<li class="inline-block max-xl:hidden">
-									<a href="book-now.html" class="btn btn-primary btn-hover">
+									<a href="book-now.html" class="btn btn-primary btn-hover light">
 										<span>Book Now</span>
 									</a>
 								</li>
